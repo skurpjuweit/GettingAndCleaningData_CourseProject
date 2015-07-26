@@ -93,13 +93,13 @@ Descriptions of variables in the original data set can be found in http://archiv
 - 65) fBodyBodyGyroJerkMag.mean: Corresponds to fBodyBodyGyroJerkMag-mean() in the original data set.
 - 66) fBodyBodyGyroJerkMag.std: Corresponds to fBodyBodyGyroJerkMag-std() in the original data set.
 - 67) Activity.Label:
-  -- 1 <- "WALKING"
-  -- 2 <- "WALKING_UPSTAIRS"
-  -- 3 <- "WALKING_DOWNSTAIRS"
-  -- 4 <- "SITTING"
-  -- 5 <- "STANDING"
-  -- 6 <- "LAYING"
-- 68) Subject.ID: Number between 1 and 40 identifying the subject.
+  - 1 <- "WALKING"
+  - 2 <- "WALKING_UPSTAIRS"
+  - 3 <- "WALKING_DOWNSTAIRS"
+  - 4 <- "SITTING"
+  - 5 <- "STANDING"
+  - 6 <- "LAYING"
+- 68) Subject.ID: Number between 1 and 30 identifying the subject.
 
 # Clean Data Set
 Two data frames and two corresponding files are created:
