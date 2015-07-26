@@ -1,7 +1,8 @@
 # Script 1
 # file: 1_merge_data_sets.R
 # Merges the training and the test sets to create one data set
-# the result is stored in a data frame: result.df
+# The activity label and the subject ID are added in separate columns
+# The result is stored in a data frame: data.1.df
 
 # Assumption: Data has been downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 # and has been unzipped into the working directory
@@ -42,5 +43,4 @@ train.df$Subject.ID <- subject.train.df$V1
 
 # CONCATENATE THE TEST AND THE TRAIN DATA SET
 
-result.df <- rbind(test.df, train.df)
-result.df
+data.1.df <- rbind(test.df, train.df)

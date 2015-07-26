@@ -1,10 +1,12 @@
 # Script 2
-# file: 2_extract_mean_and_std_deviation.R
-# Extracts only the measurements on the mean and standard deviation for each measurement.
+# file: 2_extract_mean_and_standard_deviation.R
+# Create a subset of the data frame to extract all measurements on the mean and standard deviation for each measurement
+# Also the activity label and the subject ID are kept in the data frame
 
-# Assumption: Data has been stroed in a data frame data.1.df
+# Assumption: Data has been stored in a data frame data.1.df
 
-# Define columns to be kept
+# The following vector contains the names of all columns to be kept. These are all columns containing mean or standard deviation values plus the 
+# colums containing the activity label and the subject ID.
 columns <- c(
   "V1",    # tBodyAcc-mean()-X
   "V2",    # tBodyAcc-mean()-Y
